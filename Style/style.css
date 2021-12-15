@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+.calc {
+    width: 210px;
+    margin: 200px auto;
+}
+
+.result {
+    font-size:50px;
+    text-align: right;
+    padding: 10px 5px;
+    color: #fff;
+}
+
+.key {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin: 1px;
+    background: #494949;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+}
+
+.key:active{
+    background: #49494990;
+}
+
+.zero {
+    width: 103px;
+    border-radius: 80px;
+}
+
+tr:first-child td .key {
+    background: #c7c7c7;
+    color: #000;
+}
+
+tr:first-child td .key:active {
+    background: #c7c7c790;
+}
+
+td:last-child .key {
+    background: #ffc107 !important;
+    color: #fff !important;
+}
+
+td:last-child .key:active{
+    background: #ffc10790 !important;
+}
+
+.six {
+    font-size: 40px;
+    padding: 17.5px  5px;
+}
+
+.seven {
+    font-size: 30px;
+    padding: 25.5px 5px;
+}
+
+.eight {
+    font-size: 24px;
+    padding: 30px  5px;
+}
+
+.nine {
+    font-size: 20px;
+    padding: 33px 5px;
+}
